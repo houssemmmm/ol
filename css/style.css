@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Oswald");
+
+@import url("components/banner.css");
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/button.css");
+
+@import url("components/card.css");
+
+@import url("components/footer.css");
+
+body {
+	font-family: "Oswald", sans-serif;
+	font-size: 20px;
+	margin: 0px;
+
+}
+
+p {
+	font-family: "Oswald", sans-serif;
+	font-size: 22px;
+}
+
+h1, h2, h3 {
+	font-family: "Abel", sans-serif;
+	font-weight: bold;
+	margin: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+li {
+	font-size: 45px;
+	color: green;
+	text-align: justify;
+
+}
+
+i {
+	font-size: 20px;
+}
+
+#memphis {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+#olympico {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 5px;
+}
